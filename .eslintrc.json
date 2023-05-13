@@ -1,0 +1,129 @@
+{
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": [
+      "error", 4, { "SwitchCase": 1 }
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "accessor-pairs": "error",
+    "array-callback-return": "error",
+    "no-else-return": "error",
+    "no-empty-function": [
+      "warn",
+      {
+        "allow": [
+          "constructors"
+        ]
+      }
+    ],
+    "no-implicit-coercion": [
+      "error",
+      {
+        "allow": ["!!"]
+      }
+    ],
+    "no-return-await": "error",
+    "no-self-assign": "error",
+    "no-throw-literal": "error",
+    "require-await": "warn",
+    "yoda": [
+      "error",
+      "never",
+      {
+        "exceptRange": true
+      }
+    ],
+    "no-shadow": [
+      "error"
+    ],
+    "global-require": "warn",
+    "handle-callback-err": [
+      "error"
+    ],
+    "camelcase": [
+      // Warning so that we can make
+      // slack api calls without it
+      // getting mad at us
+      "warn"
+    ],
+    "one-var": [
+      "error",
+      {
+        "initialized": "never",
+        "uninitialized": "consecutive"
+      }
+    ],
+    "generator-star-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": false
+      }
+    ],
+    "no-var": [
+      "error"
+    ],
+    "object-shorthand": [
+      "error",
+      "always",
+      {
+        "avoidQuotes": true
+      }
+    ],
+    "prefer-rest-params": [
+      "error"
+    ],
+    "prefer-template": [
+      "error"
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any"
+      }
+    ],
+    "no-undef": "warn",
+    "template-curly-spacing": [
+      "error",
+      "never"
+    ],
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "no-console": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "globals": {
+    "frozor": true
+  }
+}

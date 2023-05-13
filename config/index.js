@@ -1,0 +1,9 @@
+exports.slack     = require('./slack');
+exports.gwen      = require('./gwen');
+exports.words     = require('./words');
+exports.spoobux   = require('./spoobux');
+exports.colors    = require('./colors');
+exports.spoobux   = require('./spoobux');
+exports.apiKeys   = require('./apiKeys');
+exports.commands  = require('./commands');
+exports.punishments = require('./punishments');

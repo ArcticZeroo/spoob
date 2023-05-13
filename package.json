@@ -1,0 +1,42 @@
+{
+  "name": "frozor-spoobot",
+  "version": "1.0.0",
+  "description": "Spoob bot",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^0.22.0",
+    "djs-collection": "0.0.5",
+    "expiring-cache": "0.0.1",
+    "fast-mongoose": "^1.0.1",
+    "frozor-commands": "^5.0.5",
+    "frozor-error": "^1.0.0",
+    "frozor-logger": "^3.x.x",
+    "frozor-minecraftbot": "^1.3.x",
+    "frozor-slack-attachments": "^1.0.3",
+    "frozor-slack-message-components": "^1.0.x",
+    "frozor-slack-messages": "^1.1.x",
+    "frozor-slackbot": "^4.0.x",
+    "hat": "0.0.3",
+    "iron-golem": "^0.2.3",
+    "mc-hermes": "^0.1.0",
+    "mineplex-api-wrapper": "^2.0.7",
+    "mineplex-ranks": "^0.1.4",
+    "mojang": "^0.4.0",
+    "mojang-api-wrapper": "0.0.7",
+    "mongoose": "^4.6.3",
+    "mysql-ssh": "^1.0.6",
+    "mysql2": "latest",
+    "reconnecting-websocket": "^3.0.x",
+    "request": "^2.75.0",
+    "speakeasy": "^2.0.0",
+    "ssh2": "latest",
+    "websocket": "^1.0.26"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
